@@ -1,0 +1,28 @@
+.container{
+    background-color: #F15930;
+}
+
+.page1-hero{
+    font-family: Helvetica;
+    color: #BCFDFF;
+}
+
+.btn-primary{
+    background-color: #BCFDFF;
+    color: #17BEBB;
+    font-family: Helvetica;
+}
+.button-style-start{
+    border: 5px solid #17BEBB;
+}
+.button-style-answer{
+    border: 2px solid #17BEBB;
+}
+
+.btn-primary:hover{
+    color: #17BEBB;
+}
+.main-game{
+    border: 5px solid #17BEBB;
+    background-color: white;
+}
