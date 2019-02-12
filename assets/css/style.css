@@ -6,7 +6,9 @@
     font-family: Helvetica;
     color: #BCFDFF;
 }
-
+button:hover {
+    color: #17BEBB;
+}
 .btn-primary{
     background-color: #BCFDFF;
     color: #17BEBB;
