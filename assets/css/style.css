@@ -6,6 +6,11 @@
     font-family: Helvetica;
     color: #BCFDFF;
 }
+
+.countDownTimer{
+    font-family: Helvetica;
+    font-size: 30px;
+}
 button:hover {
     color: #17BEBB;
 }
@@ -27,4 +32,13 @@ button:hover {
 .main-game{
     border: 5px solid #17BEBB;
     background-color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.afterimage img{
+    width: 100% \9;
+    height: 300px;
 }

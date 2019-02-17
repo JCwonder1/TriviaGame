@@ -17,20 +17,27 @@
 <div class="container pb-5">
     <div class="img-fluid text-center">
         <img src="assets/images/wait-wait-dont-tell-me.jpg" alt="_blank">
+        <div class = "countDownTimer">15</div>
     </div>
+
     <div class="container main-game text-center">
         <div>
-            <h4 class="question mt-3">A man in Florida caught breaking the windshields of multiple cars in a parking lot said he was only doing it because he:</h4>
+            <h4 class="question mt-3"></h4>
         </div>
-        <div class="answers">
-            <button id="answer-buttons" class="btn btn-primary button-style-answer m-2" value="a">A .Couldn’t remember where he parked.</button>
+        <div class="answers hide">
+            <button id="answer-button-1" class="btn btn-primary button-style-answer m-2" value="a"></button>
             <br>
-            <button id="answer-buttons" class="btn btn-primary button-style-answer mb-2" value="b">B. Hated cars.</button>
+            <button id="answer-button-2" class="btn btn-primary button-style-answer mb-2" value="b"></button>
             <br>
-            <button id="answer-buttons" class="btn btn-primary button-style-answer mb-2" value="c">C .Was a disgruntle employee.</button>
+            <button id="answer-button-3" class="btn btn-primary button-style-answer mb-2" value="c"></button>
             <br>
-            <button id="answer-buttons" class="btn btn-primary button-style-answer mb-2" value="d">D. Was intoxicated.</button>
-
+            <button id="answer-button-4" class="btn btn-primary button-style-answer mb-2" value="d"></button>
+        </div>
+        <div class="hide afterimage">
+            <img src="" class="img-fluid mb-2">
+        </div>
+        <div class="reload hide">
+            <button id="reload" class="btn btn-primary button-style-answer mb-2">Replay</button>
         </div>
 
     </div>
