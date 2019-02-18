@@ -12,7 +12,7 @@ var question1 = {
     choices: ["Russia", "Jared Kushner", "Ivanka Trump", "President Obama"],
     correctAnswer: "Russia",
     imageCaption: "They are investigating whether Russia has any leverage over the President",
-    imageLocation: "assets/images/Flag_of_Russia.svg"
+    imageLocation: "assets/images/Flag_of_Russia.png"
 };
 
 var question2 = {
@@ -25,8 +25,8 @@ var question2 = {
 
 var question3 = {
     question: "A man in Florida caught breaking the windshields of multiple cars in a parking lot said he was only doing it because he:",
-    choices: ["Hated cars.", "Was a disgruntle employee.", "Was intoxicated.", "Couldn’t remember where he parked."],
-    correctAnswer: "Couldn’t remember where he parked.",
+    choices: ["Hated cars", "Was a disgruntle employee", "Was intoxicated", "Couldn’t remember where he parked"],
+    correctAnswer: "Couldn’t remember where he parked",
     imageCaption: "This is crazy.",
     imageLocation: "assets/images/cantfindcar.jpg"
 };
@@ -35,15 +35,15 @@ var question4 = {
     question: "This week, it was revealed that some apps for the _____ may be recording users' screens without their knowledge.",
     choices: ["iPhone", "Samsung Galaxy", "Google Pixel", "LG"],
     correctAnswer: "iPhone",
-    imageCaption: "Apple blocked Facebook’s Research VPN app being that it breaks apples policy.",
+    imageCaption: "Apple blocked Facebook’s Research VPN app because it broke apples policy.",
     imageLocation: "assets/images/privacycheckup.jpg"
 };
 
 var question5 = {
-    question: "Hoping to do its part to manage the gray squirrel population in the U.K., a business in London is:",
-    choices: ["Serving gray squirrel Lasagna", "Asking employees to kill squirrels at lunchtime", "Asking employees to set squirrel traps", "None of the above"],
+    question: "Hoping to do their part to manage the gray squirrel population in the U.K., a business in London is:",
+    choices: ["Serving gray squirrel Lasagna", "Asking employees to kill squirrels at lunchtime", "Asking employees to set squirrel traps", "Capture them as pets"],
     correctAnswer: "Serving gray squirrel Lasagna",
-    imageCaption: "This must of ruined your appetite and you will probably never eat lasagna again.  Sorry!",
+    imageCaption: "Lasagna anyone?",
     imageLocation: "assets/images/squirrel.jpg"
 };
 
@@ -65,14 +65,14 @@ var question7 = {
 
 var question8 = {
     question: "On Wednesday, NASA announced that 2018 was the fourth year on record for being the:",
-    choices: ["Hottest year", "Spaciest year", "Highest number of space shuttle launches", "None of the above"],
+    choices: ["Hottest year", "Spaciest year", "Highest number of space shuttle launches", "None of these answers"],
     correctAnswer: "Hottest year",
-    imageCaption: "Global warming exist.  Get on board before there is no board to get on.",
+    imageCaption: "Global warming exist.",
     imageLocation: "assets/images/globalwarming.jpeg"
 };
 
 var question9 = {
-    question: "After it was discovered that its accelerator pedal often got stuck, a recall warning was put out for:",
+    question: "After it was discovered that it's accelerator pedal often got stuck, a recall warning was put out for:",
     choices: ["Barbie Power Wheels Dream Camper","Toyota","Honda","Boeing"],
     correctAnswer: "Barbie Power Wheels Dream Camper",
     imageCaption: "Fisher-Price recalled these after confirming that the peddle sticks.",
@@ -98,7 +98,7 @@ var question11 = {
 
 var question12 = {
     question: "Delta is facing a backlash on social media after encouraging passengers to do what?",
-    choices: ["Pass their name & number to other passengers", "Wear blackface", "Kill Grey Squirrels", "Boycott watching the State of the union"],
+    choices: ["Pass their name & number to other passengers", "Wear blackface", "Kill Grey Squirrels", "Boycott watching the State of the Union"],
     correctAnswer: "Pass their name & number to other passengers",
     imageCaption: "Here are the napkins.",
     imageLocation: "assets/images/delta-coke.jpg"
@@ -205,14 +205,14 @@ function runGame(){
 
         if (rightAnswers<=3) {
             $(".question").text("You got " + rightAnswers + " correct!");
-        }else if (rightAnswers>3 && rightAnswers<7){
+        }else if (rightAnswers>3 && rightAnswers<12){
             $(".question").text("Good job! You got "+rightAnswers+" correct");
         }else{
             $(".question").text("Wow! You got every question right.  You're a current events wizard!");
         }
 
 
-        //TODO: Bring to a game over screen and display results.  Need to remove alert.
+
     }
 }
 
