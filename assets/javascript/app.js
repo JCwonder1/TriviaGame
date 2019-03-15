@@ -8,100 +8,100 @@
 //Store question, choices, answer, image caption and image
 
 var question1 = {
-    question: "On Wednesday, the House Intelligence Committee announced plans to investigate whether _______ has any leverage over President Trump.",
-    choices: ["Russia", "Jared Kushner", "Ivanka Trump", "President Obama"],
-    correctAnswer: "Russia",
-    imageCaption: "They are investigating whether Russia has any leverage over the President",
-    imageLocation: "assets/images/Flag_of_Russia.png"
+    question: "Match This number:  ALY69922U30N",
+    choices: ["ALY69922U30N", "ALY69922U45N", "ALY69872U20N", "ALY69897U20N"],
+    correctAnswer: "ALY69982U30N",
+    imageCaption: "ALY69982U30N",
+    imageLocation: ""
 };
 
 var question2 = {
-    question: "A new report released on Tuesday said that ISIS is likely to regain territory following Trump's decision to withdraw troops from:",
-    choices: ["Syria", "Iran", "Afghanistan", "Saudi Arabia"],
-    correctAnswer: "Syria",
-    imageCaption: "The report stated that ISIS is likely to regain territory in Syria.",
-    imageLocation: "assets/images/syria.png"
+    question: "Match This number:  ALY59586U20N",
+    choices: ["ALY59586U20N", "ALY59587U20N", "ALY59582U20N", "ALY65522U20N"],
+    correctAnswer: "ALY59586U20N",
+    imageCaption: "ALY59586U20N",
+    imageLocation: ""
 };
 
 var question3 = {
-    question: "A man in Florida caught breaking the windshields of multiple cars in a parking lot said he was only doing it because he:",
-    choices: ["Hated cars", "Was a disgruntle employee", "Was intoxicated", "Couldn’t remember where he parked"],
-    correctAnswer: "Couldn’t remember where he parked",
-    imageCaption: "This is crazy.",
-    imageLocation: "assets/images/cantfindcar.jpg"
+    question: "Match This number:  ALY65288U20N",
+    choices: ["ALY65288U20N", "ALY65289U20N", "ALY65555U20N", "ALY65371U20N"],
+    correctAnswer: "ALY65288U20N",
+    imageCaption: "ALY65288U20N",
+    imageLocation: ""
 };
 
 var question4 = {
-    question: "This week, it was revealed that some apps for the _____ may be recording users' screens without their knowledge.",
-    choices: ["iPhone", "Samsung Galaxy", "Google Pixel", "LG"],
-    correctAnswer: "iPhone",
-    imageCaption: "Apple blocked Facebook’s Research VPN app because it broke apples policy.",
-    imageLocation: "assets/images/privacycheckup.jpg"
+    question: "Match This number:  ALY62511U20N",
+    choices: ["ALY62511U20N", "ALY62512U20N", "ALY04038U10N", "ALY85511U20N"],
+    correctAnswer: "ALY62511U20N",
+    imageCaption: "ALY62511U20N",
+    imageLocation: ""
 };
 
 var question5 = {
-    question: "Hoping to do their part to manage the gray squirrel population in the U.K., a business in London is:",
-    choices: ["Serving gray squirrel Lasagna", "Asking employees to kill squirrels at lunchtime", "Asking employees to set squirrel traps", "Capture them as pets"],
-    correctAnswer: "Serving gray squirrel Lasagna",
-    imageCaption: "Lasagna anyone?",
-    imageLocation: "assets/images/squirrel.jpg"
+    question: "Match This number:  200004493",
+    choices: ["200004493", "200013265", "EBY100076485", "EBY100076479"],
+    correctAnswer: "200004493",
+    imageCaption: "200004493",
+    imageLocation: ""
 };
 
 var question6 = {
-    question: "On Thursday, the German government announced plans to limit the data-gathering abilities of social media site:",
-    choices: ["Facebook", "Twitter", "Google+", "Myspace"],
-    correctAnswer: "Facebook",
-    imageCaption: "Germany is pressing the brakes on Facebook's data gathering ability.",
-    imageLocation: "assets/images/facebook_dislike_germany.jpg"
+    question: "Match This number:  ALY62512U20N",
+    choices: ["ALY62511U20N", "ALY62512U20N", "ALY04038U10N", "ALY85511U20N"],
+    correctAnswer: "ALY62512U20N",
+    imageCaption: "ALY62512U20N",
+    imageLocation: ""
 };
 
 var question7 = {
-    question: "With Valentine's Day approaching, Potbelly Sandwich Shop announced a new special offering – On Feb 14th they will be giving every single person what for free:",
-    choices: ["One free cookie", "One rose", "A chocolate", "A heart test"],
-    correctAnswer: "One free cookie",
-    imageCaption: "Cookie of shame",
-    imageLocation: "assets/images/sadcookie.png"
+    question: "Match This number:  100076484",
+    choices: ["100076484", "100076482", "100076481", "100076480"],
+    correctAnswer: "100076484",
+    imageCaption: "100076484",
+    imageLocation: ""
 };
 
 var question8 = {
-    question: "On Wednesday, NASA announced that 2018 was the fourth year on record for being the:",
+    question: "Match This number:  ALY69922U30N",
     choices: ["Hottest year", "Spaciest year", "Highest number of space shuttle launches", "None of these answers"],
     correctAnswer: "Hottest year",
     imageCaption: "Global warming exist.",
-    imageLocation: "assets/images/globalwarming.jpeg"
+    imageLocation: ""
 };
 
 var question9 = {
-    question: "After it was discovered that it's accelerator pedal often got stuck, a recall warning was put out for:",
-    choices: ["Barbie Power Wheels Dream Camper","Toyota","Honda","Boeing"],
-    correctAnswer: "Barbie Power Wheels Dream Camper",
-    imageCaption: "Fisher-Price recalled these after confirming that the peddle sticks.",
-    imageLocation: "assets/images/barbie.jpeg"
+    question: "Match This number:  Qty8",
+    choices: ["Qty8","Qty7","Qty9","Qty0"],
+    correctAnswer: "Qty8",
+    imageCaption: "Qty8",
+    imageLocation: ""
 };
 
 var question10 = {
-    question: "New app called Recharge let you rent what to people for single minutes:",
-    choices: ["Your house", "Body", "Car battery", "Cell phone"],
-    correctAnswer: "Your house",
-    imageCaption: "You can now find a napping spot on every corner because of Recharge.",
-    imageLocation:"assets/images/recharge.jpg"
+    question: "Match This number:  RB1",
+    choices: ["RB1", "RA1", "RB2", "RC1"],
+    correctAnswer: "RB1",
+    imageCaption: "RB1",
+    imageLocation:""
 };
 
 
 var question11 = {
-    question: "New Study shows driverless cars will cause more traffic because they would refuse to:",
-    choices: ["Pay for parking", "Parallel park", "Ask for directions", "Drive above the speed limit"],
-    correctAnswer: "Pay for parking",
-    imageCaption: "Driverless cars will choose to round the block instead of paying which will cause more traffic.",
-    imageLocation: "assets/images/driverless.png"
+    question: "Match This number:  Z1BS1H",
+    choices: ["Z1BS1H", "Z1BS1F", "Z1BS1G", "Z1BS1E"],
+    correctAnswer: "Z1BS1H",
+    imageCaption: "Z1BS1H",
+    imageLocation: ""
 };
 
 var question12 = {
-    question: "Delta is facing a backlash on social media after encouraging passengers to do what?",
-    choices: ["Pass their name & number to other passengers", "Wear blackface", "Kill Grey Squirrels", "Boycott watching the State of the Union"],
-    correctAnswer: "Pass their name & number to other passengers",
-    imageCaption: "Here are the napkins.",
-    imageLocation: "assets/images/delta-coke.jpg"
+    question: "Match This number:  Acura TL 17 Wheel",
+    choices: ["Acura TL 17 Wheel", "Acura TL 18 Wheel", "Acura TL Wheel", "Acura 17 Wheel"],
+    correctAnswer: "Acura TL 17 Wheel",
+    imageCaption: "Acura TL 17 Wheel",
+    imageLocation: ""
 };
 
 
@@ -169,7 +169,7 @@ function runCountDown(){
     }
 
     if (timeout && randomQuestion !== []){
-        timer = 15;
+        timer = 10;
         runGame();
         timeout = false;
     }
@@ -231,7 +231,7 @@ function checkAnswer(answerSelected){
 
         //rebuildAnswerSection();
         runGame();
-        timer = 15;
+        timer = 10;
 
     } else {
 
@@ -242,7 +242,7 @@ function checkAnswer(answerSelected){
 
         //rebuildAnswerSection();
         runGame();
-        timer = 15;
+        timer = 10;
     }
 
 }
@@ -278,7 +278,7 @@ var $answer4 = $("#answer-button-4");
 var randomQuestion = randomArray(arrayOfQuestions);
 
 //Build Timer countdown and conditions
-var timer = 15;
+var timer = 10;
 var intervalID;
 var timeout;
 
