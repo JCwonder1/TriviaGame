@@ -10,8 +10,8 @@
 var question1 = {
     question: "Match This number:  ALY69922U30N",
     choices: ["ALY69922U30N", "ALY69922U45N", "ALY69872U20N", "ALY69897U20N"],
-    correctAnswer: "ALY69982U30N",
-    imageCaption: "ALY69982U30N",
+    correctAnswer: "ALY69922U30N",
+    imageCaption: "ALY69922U30N",
     imageLocation: ""
 };
 
@@ -65,9 +65,9 @@ var question7 = {
 
 var question8 = {
     question: "Match This number:  ALY69922U30N",
-    choices: ["Hottest year", "Spaciest year", "Highest number of space shuttle launches", "None of these answers"],
-    correctAnswer: "Hottest year",
-    imageCaption: "Global warming exist.",
+    choices: [" ALY69822U30N", "ALY69922U20N", "ALY96622U30N", "None of these answers"],
+    correctAnswer: "ALY69922U30N",
+    imageCaption: "None of these answer",
     imageLocation: ""
 };
 

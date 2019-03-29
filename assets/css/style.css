@@ -1,10 +1,10 @@
 .container{
-    background-color: #F15930;
+    background-color: rgb(174, 232, 255);
 }
 
 .page1-hero{
     font-family: Helvetica;
-    color: #BCFDFF;
+    color: #000000;
 }
 
 .countDownTimer{
@@ -41,4 +41,7 @@ button:hover {
 .afterimage img{
     width: 100% \9;
     height: 300px;
+}
+.margin{
+    margin-top: 8%
 }
